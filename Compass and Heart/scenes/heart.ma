@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: newCompass.ma
-//Last modified: Wed, Mar 06, 2019 03:31:12 PM
+//Name: heart.ma
+//Last modified: Wed, Mar 06, 2019 03:31:24 PM
 //Codeset: UTF-8
 requires maya "2018";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "3.1.2.1";
@@ -3432,4 +3432,4 @@ connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId7.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId9.msg" ":initialShadingGroup.gn" -na;
-// End of newCompass.ma
+// End of heart.ma
