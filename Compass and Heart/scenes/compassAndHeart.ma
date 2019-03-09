@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: heart.ma
-//Last modified: Sat, Mar 09, 2019 05:16:22 PM
+//Name: compassAndHeart.ma
+//Last modified: Sat, Mar 09, 2019 05:16:36 PM
 //Codeset: UTF-8
 requires maya "2018";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiSkyDomeLight"
@@ -4679,4 +4679,4 @@ connectAttr "pCylinderShape1.ciog.cog[0]" ":initialShadingGroup.dsm" -na;
 connectAttr "pSphereShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
-// End of heart.ma
+// End of compassAndHeart.ma
